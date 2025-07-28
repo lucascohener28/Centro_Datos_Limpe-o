@@ -41,3 +41,74 @@ img {
     bottom: 64.6vw;
     left: 20vw;
 }
+
+/* ===== MEDIA QUERIES PARA BOTONES RESPONSIVE ===== */
+
+/* Tablets (768px y menos) */
+@media (max-width: 768px) {
+    .B_partidos, .B_entre, .B_fichas {
+        width: 22vw;
+        height: 12vw;
+    }
+    
+    .Partidos {
+        right: 30vw;
+        bottom: 28vw;
+    }
+    
+    .Entrenamientos {
+        right: 7vw;
+        bottom: 40vw;
+    }
+    
+    .Fichas {
+        bottom: 52vw;
+        left: 16vw;
+    }
+}
+
+/* Móviles (480px y menos) */
+@media (max-width: 480px) {
+    .B_partidos, .B_entre, .B_fichas {
+        width: 18vw;
+        height: 10vw;
+    }
+    
+    .Partidos {
+        right: 22vw;
+        bottom: 22vw;
+    }
+    
+    .Entrenamientos {
+        right: 5vw;
+        bottom: 32vw;
+    }
+    
+    .Fichas {
+        bottom: 42vw;
+        left: 12vw;
+    }
+}
+
+/* Móviles pequeños (320px y menos) */
+@media (max-width: 320px) {
+    .B_partidos, .B_entre, .B_fichas {
+        width: 16vw;
+        height: 9vw;
+    }
+    
+    .Partidos {
+        right: 18vw;
+        bottom: 18vw;
+    }
+    
+    .Entrenamientos {
+        right: 4vw;
+        bottom: 26vw;
+    }
+    
+    .Fichas {
+        bottom: 34vw;
+        left: 10vw;
+    }
+} 

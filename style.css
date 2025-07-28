@@ -49,3 +49,104 @@ img {
     font-size: 2.4vw;
     color: #222222;
 }
+
+/* ===== MEDIA QUERIES PARA RESPONSIVE ===== */
+
+/* Tablets (768px y menos) */
+@media (max-width: 768px) {
+    img {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: -5px;
+    }
+    
+    .logoo {
+        width: 20vw;
+    }
+    
+    .logo {
+        right: 35vw;
+        bottom: 25vw;
+    }
+    
+    .txt_encima {
+        width: 80vw;
+        bottom: 40vw;
+        left: 10vw;
+        line-height: 1.2vw;
+    }
+    
+    .titulo {
+        font-size: 8vw;
+        letter-spacing: 0.8vw;
+    }
+    
+    .titulo2 {
+        font-size: 7vw;
+        top: 2vw;
+        letter-spacing: 0.4vw;
+    }
+    
+    .parrafo {
+        top: 1.5vw;
+        font-size: 2vw;
+    }
+}
+
+/* Móviles (480px y menos) */
+@media (max-width: 480px) {
+    img {
+        width: 100vw;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .logoo {
+        width: 25vw;
+    }
+    
+    .logo {
+        right: 25vw;
+        bottom: 20vw;
+    }
+    
+    .txt_encima {
+        width: 90vw;
+        bottom: 30vw;
+        left: 5vw;
+        line-height: 1.5vw;
+    }
+    
+    .titulo {
+        font-size: 6vw;
+        letter-spacing: 0.6vw;
+    }
+    
+    .titulo2 {
+        font-size: 5vw;
+        top: 1.5vw;
+        letter-spacing: 0.3vw;
+    }
+    
+    .parrafo {
+        top: 1vw;
+        font-size: 1.8vw;
+    }
+}
+
+/* Móviles pequeños (320px y menos) */
+@media (max-width: 320px) {
+    .titulo {
+        font-size: 5vw;
+        letter-spacing: 0.5vw;
+    }
+    
+    .titulo2 {
+        font-size: 4vw;
+        letter-spacing: 0.2vw;
+    }
+    
+    .parrafo {
+        font-size: 1.5vw;
+    }
+}
