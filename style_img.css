@@ -47,68 +47,68 @@ img {
 /* Tablets (768px y menos) */
 @media (max-width: 768px) {
     .B_partidos, .B_entre, .B_fichas {
-        width: 22vw;
-        height: 12vw;
+        width: 20vw;
+        height: 11vw;
     }
     
     .Partidos {
-        right: 30vw;
-        bottom: 28vw;
+        right: 25vw;
+        bottom: 25vw;
     }
     
     .Entrenamientos {
-        right: 7vw;
-        bottom: 40vw;
+        right: 5vw;
+        bottom: 35vw;
     }
     
     .Fichas {
-        bottom: 52vw;
-        left: 16vw;
+        bottom: 45vw;
+        left: 12vw;
     }
 }
 
 /* Móviles (480px y menos) */
 @media (max-width: 480px) {
     .B_partidos, .B_entre, .B_fichas {
-        width: 18vw;
-        height: 10vw;
+        width: 15vw;
+        height: 8vw;
     }
     
     .Partidos {
-        right: 22vw;
-        bottom: 22vw;
+        right: 15vw;
+        bottom: 18vw;
     }
     
     .Entrenamientos {
-        right: 5vw;
-        bottom: 32vw;
+        right: 3vw;
+        bottom: 26vw;
     }
     
     .Fichas {
-        bottom: 42vw;
-        left: 12vw;
+        bottom: 34vw;
+        left: 8vw;
     }
 }
 
 /* Móviles pequeños (320px y menos) */
 @media (max-width: 320px) {
     .B_partidos, .B_entre, .B_fichas {
-        width: 16vw;
-        height: 9vw;
+        width: 13vw;
+        height: 7vw;
     }
     
     .Partidos {
-        right: 18vw;
-        bottom: 18vw;
+        right: 12vw;
+        bottom: 15vw;
     }
     
     .Entrenamientos {
-        right: 4vw;
-        bottom: 26vw;
+        right: 2vw;
+        bottom: 22vw;
     }
     
     .Fichas {
-        bottom: 34vw;
-        left: 10vw;
+        bottom: 29vw;
+        left: 6vw;
     }
 } 
