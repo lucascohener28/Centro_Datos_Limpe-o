@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.B_partidos{
+    width: 27vw;
+    height: 15vw;
+}
+
+.Partidos{
+    position: relative;
+    right: 38vw;
+    bottom: 35.4vw;
+}
+
+.B_entre{
+    width: 27vw;
+    height: 15vw;
+}
+
+.Entrenamientos{
+    position: relative;
+    right: 9vw;
+    bottom: 50vw;
+}
+
+.B_fichas{
+    width: 27vw;
+    height: 15vw;
+}
+
+.Fichas{
+    position: relative;
+    bottom: 64.6vw;
+    left: 20vw;
+}
