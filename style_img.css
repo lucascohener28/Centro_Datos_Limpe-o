@@ -9,7 +9,50 @@ img {
   height: auto;
 }
 
-.B_partidos{
+.Boton-imagen{
+    background: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2vw; 
+    max-width: 70vw;
+    height: 20vw;
+    border-radius: 2vw;
+    box-shadow: 1px 1px 20px #1c1c1c3b;
+    margin: 0 auto;
+
+    view-timeline-name: --img-scroll;
+    view-timeline-axis: block;
+    animation-name: grow-in;
+    animation-timeline: --img-scroll;
+    animation-range: entry 20% cover 40%;
+    animation-fill-mode: both;
+    animation-duration: 1.5s;
+}
+
+.B_partidos,
+.B_entre,
+.B_fichas {
+    width: 20vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 2vw;
+}
+
+
+@keyframes grow-in {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*.B_partidos{
     width: 27vw;
     height: 15vw;
 }
@@ -18,6 +61,7 @@ img {
     position: relative;
     right: 38vw;
     bottom: 35.4vw;
+    margin-right: 5vw;
 }
 
 .B_entre{
@@ -40,75 +84,5 @@ img {
     position: relative;
     bottom: 64.6vw;
     left: 20vw;
-}
-
-/* ===== MEDIA QUERIES PARA BOTONES RESPONSIVE ===== */
-
-/* Tablets (768px y menos) */
-@media (max-width: 768px) {
-    .B_partidos, .B_entre, .B_fichas {
-        width: 20vw;
-        height: 11vw;
-    }
-    
-    .Partidos {
-        right: 25vw;
-        bottom: 25vw;
-    }
-    
-    .Entrenamientos {
-        right: 5vw;
-        bottom: 35vw;
-    }
-    
-    .Fichas {
-        bottom: 45vw;
-        left: 12vw;
-    }
-}
-
-/* Móviles (480px y menos) */
-@media (max-width: 480px) {
-    .B_partidos, .B_entre, .B_fichas {
-        width: 15vw;
-        height: 8vw;
-    }
-    
-    .Partidos {
-        right: 15vw;
-        bottom: 18vw;
-    }
-    
-    .Entrenamientos {
-        right: 3vw;
-        bottom: 26vw;
-    }
-    
-    .Fichas {
-        bottom: 34vw;
-        left: 8vw;
-    }
-}
-
-/* Móviles pequeños (320px y menos) */
-@media (max-width: 320px) {
-    .B_partidos, .B_entre, .B_fichas {
-        width: 13vw;
-        height: 7vw;
-    }
-    
-    .Partidos {
-        right: 12vw;
-        bottom: 15vw;
-    }
-    
-    .Entrenamientos {
-        right: 2vw;
-        bottom: 22vw;
-    }
-    
-    .Fichas {
-        bottom: 29vw;
-        left: 6vw;
-    }
 } 
+*/

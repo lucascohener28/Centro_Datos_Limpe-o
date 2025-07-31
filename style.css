@@ -5,6 +5,13 @@
     margin-top: -10px;
 }*/
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Cherish&family=Luxurious+Script&family=The+Nautigal:wght@400;700&display=swap');
+
+header{
+    position: relative;
+    margin-bottom: 0;
+    height: 60vw;
+}
+
 img {
   width: 50vw;           
   height: auto;
@@ -48,120 +55,4 @@ img {
     top: 2vw;
     font-size: 2.4vw;
     color: #222222;
-}
-
-/* ===== MEDIA QUERIES PARA RESPONSIVE ===== */
-
-/* Tablets (768px y menos) */
-@media (max-width: 768px) {
-    img {
-        width: 70vw;
-        margin-left: 15vw;
-        margin-top: -5px;
-    }
-    
-    .logoo {
-        width: 18vw;
-    }
-    
-    .logo {
-        right: 30vw;
-        bottom: 22vw;
-    }
-    
-    .txt_encima {
-        width: 70vw;
-        bottom: 35vw;
-        left: 15vw;
-        line-height: 1.2vw;
-    }
-    
-    .titulo {
-        font-size: 7vw;
-        letter-spacing: 0.6vw;
-    }
-    
-    .titulo2 {
-        font-size: 6vw;
-        top: 1.5vw;
-        letter-spacing: 0.3vw;
-    }
-    
-    .parrafo {
-        top: 1vw;
-        font-size: 1.8vw;
-    }
-}
-
-/* Móviles (480px y menos) */
-@media (max-width: 480px) {
-    img {
-        width: 100vw;
-        margin-left: 0;
-        margin-top: 0;
-    }
-    
-    .logoo {
-        width: 20vw;
-    }
-    
-    .logo {
-        right: 20vw;
-        bottom: 15vw;
-    }
-    
-    .txt_encima {
-        width: 85vw;
-        bottom: 25vw;
-        left: 7.5vw;
-        line-height: 1.5vw;
-    }
-    
-    .titulo {
-        font-size: 4.5vw;
-        letter-spacing: 0.4vw;
-    }
-    
-    .titulo2 {
-        font-size: 4vw;
-        top: 1vw;
-        letter-spacing: 0.2vw;
-    }
-    
-    .parrafo {
-        top: 0.8vw;
-        font-size: 1.4vw;
-    }
-}
-
-/* Móviles pequeños (320px y menos) */
-@media (max-width: 320px) {
-    .titulo {
-        font-size: 4vw;
-        letter-spacing: 0.3vw;
-    }
-    
-    .titulo2 {
-        font-size: 3.5vw;
-        letter-spacing: 0.15vw;
-    }
-    
-    .parrafo {
-        font-size: 1.2vw;
-    }
-    
-    .logoo {
-        width: 18vw;
-    }
-    
-    .logo {
-        right: 18vw;
-        bottom: 12vw;
-    }
-    
-    .txt_encima {
-        width: 90vw;
-        bottom: 20vw;
-        left: 5vw;
-    }
 }
