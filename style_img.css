@@ -15,8 +15,8 @@ img {
     justify-content: center; 
     align-items: center;
     gap: 2vw; 
-    max-width: 70vw;
-    height: 20vw;
+    max-width: 90vw;
+    height: 25vw;
     border-radius: 2vw;
     box-shadow: 1px 1px 20px #1c1c1c3b;
     margin: 0 auto;
@@ -34,6 +34,7 @@ img {
 .B_entre,
 .B_fichas {
     width: 20vw;
+    height: 11vw;
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -51,6 +52,51 @@ img {
     transform: scale(1);
   }
 }
+
+.img-contenedor{
+    position: relative;
+    display: inline-block;
+}
+
+
+.img-contenedor:hover img {
+    transform: scale(1.08);
+}
+
+.img-contenedor:hover .img-texto {
+    display: block;
+    transform: scale(1.08);
+}
+
+.img-texto {
+    display: none;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    bottom: 4.6vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 4.5vw;
+    color: #ffffff;
+    font-size: 2vw;
+    font-family: "Anton SC";
+}
+
+.parrafo {
+    position: relative;
+    top: 2vw;
+    font-size: 1.4vw;
+    color: #222222;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Cherish&family=Luxurious+Script&family=The+Nautigal:wght@400;700&display=swap');
+
+
+
+
 
 /*.B_partidos{
     width: 27vw;
